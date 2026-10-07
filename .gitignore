@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Training artifacts (checkpoints/summaries are downloaded from Google Drive)
+hji_logs/**/checkpoints/
+hji_logs/**/summaries/
+UR5_datasets_and_training/bc_models/*.pth
+UR5_datasets_and_training/*_dataset/
+deepreach/validation_sets/*
+!deepreach/validation_sets/__init__.py
+
+# Planning experiment outputs
+planning_results/
+planning_traj/
+planning_times/
+planning_videos/
+planning_blenders/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Paper PDF downloaded for reference
+*.pdf
